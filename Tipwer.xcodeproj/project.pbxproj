@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1538EDF1D9ACC72007FB07D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1538EDE1D9ACC72007FB07D /* SettingsViewController.swift */; };
 		C15CE9A91D8DD4C6000C1C3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15CE9A81D8DD4C6000C1C3D /* AppDelegate.swift */; };
 		C15CE9AB1D8DD4C6000C1C3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15CE9AA1D8DD4C6000C1C3D /* ViewController.swift */; };
 		C15CE9AE1D8DD4C6000C1C3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15CE9AC1D8DD4C6000C1C3D /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C1538EDE1D9ACC72007FB07D /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		C15CE9A51D8DD4C6000C1C3D /* Tipwer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipwer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15CE9A81D8DD4C6000C1C3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C15CE9AA1D8DD4C6000C1C3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				C15CE9A81D8DD4C6000C1C3D /* AppDelegate.swift */,
 				C15CE9AA1D8DD4C6000C1C3D /* ViewController.swift */,
+				C1538EDE1D9ACC72007FB07D /* SettingsViewController.swift */,
 				C15CE9AC1D8DD4C6000C1C3D /* Main.storyboard */,
 				C15CE9AF1D8DD4C6000C1C3D /* Assets.xcassets */,
 				C15CE9B11D8DD4C6000C1C3D /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				C15CE9AB1D8DD4C6000C1C3D /* ViewController.swift in Sources */,
 				C15CE9A91D8DD4C6000C1C3D /* AppDelegate.swift in Sources */,
+				C1538EDF1D9ACC72007FB07D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +509,7 @@
 				C15CE9CF1D8DD4C6000C1C3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C15CE9D01D8DD4C6000C1C3D /* Build configuration list for PBXNativeTarget "TipwerTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				C15CE9D21D8DD4C6000C1C3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C15CE9D31D8DD4C6000C1C3D /* Build configuration list for PBXNativeTarget "TipwerUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				C15CE9D51D8DD4C6000C1C3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

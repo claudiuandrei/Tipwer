@@ -13,9 +13,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    // Load the settings
+    let userSettings = UserDefaults.standard
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Setup the locale options
+        userSettings.set([
+            "en_US",
+            "en_UK",
+            "fr_FR",
+            "pt_BR",
+            "ro_RO",
+        ], forKey: "LocaleOptions")
+        
+        // Set the labels for the options
+        userSettings.set([
+            "United States",
+            "Great Britain",
+            "France",
+            "Brazil",
+            "Romania",
+        ], forKey: "LocaleLabels")
+        
         return true
     }
 
