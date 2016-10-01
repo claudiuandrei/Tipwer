@@ -1,6 +1,6 @@
 # Pre-work - *Tipwer*
 
-**Name of your app** is a tip calculator application for iOS.
+**Tipwer** is a tip calculator application for iOS.
 
 Submitted by: **Claudiu Andrei**
 
@@ -22,7 +22,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [x] Automatic tip value selections by country.
-- [x] Simpler tip input.
+- [x] Simpler tip input, similar with Venmo.
 
 ## Video Walkthrough 
 
